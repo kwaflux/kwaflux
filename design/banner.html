@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KwaFlux profile banner</title>
+<!--
+  Profile header. Tokens and type match the cinema site:
+  cinema-theme.css (--kw-*), home-cinema.css (.kc-eyebrow, .kc-h1-text),
+  Instrument Serif + Inter, and public/brand/kwaflux-mark-144.webp.
+  Fonts and the mark stay in the website repo. This file only renders the PNG.
+-->
+<style>
+@font-face {
+  font-family: Inter;
+  src: url("../../web-account-pay/NewWebSite/src/fonts/inter-latin-wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../../web-account-pay/NewWebSite/src/fonts/instrument-serif-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  width: 1280px;
+  height: 480px;
+  background: #070708;
+  color: #f3efe7;
+  font-family: Inter, sans-serif;
+}
+.stage {
+  width: 1280px;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(42% 80% at 50% 42%, rgba(45, 212, 191, 0.16), transparent 68%),
+    #070708;
+  position: relative;
+}
+.stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(75% 85% at 50% 46%, transparent 52%, rgba(0, 0, 0, 0.5));
+  pointer-events: none;
+}
+.inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 96px;
+}
+.mark {
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+}
+.eyebrow {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: #cfc9be;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2dd4bf;
+  box-shadow: 0 0 14px #2dd4bf;
+}
+h1 {
+  margin: 14px 0 20px;
+  font-family: "Instrument Serif", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 0.96;
+  letter-spacing: -0.026em;
+  font-synthesis: none;
+  color: #fff;
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.35);
+}
+.chips {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.chip {
+  border: 1px solid rgba(243, 239, 231, 0.15);
+  background: #111114;
+  color: #a39d93;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="inner">
+      <img class="mark" alt="" src="../../web-account-pay/NewWebSite/public/brand/kwaflux-mark-144.webp">
+      <div class="eyebrow"><span class="dot"></span>AI video enhancer</div>
+      <h1>Fix video, photos and sound<br>in one local app</h1>
+      <div class="chips">
+        <span class="chip">Windows — stable</span>
+        <span class="chip">macOS — stable</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
