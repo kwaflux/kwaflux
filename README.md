@@ -1,16 +1,16 @@
-## Hi there 👋
+# KwaFlux
 
-<!--
-**kwaflux/kwaflux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Fix video, photos, and sound on your computer. Upscale, denoise, and restore, then check a free preview before you export.
 
-Here are some ideas to get you started:
+**[kwaflux.com](https://kwaflux.com)** · **[X](https://x.com/kwaflux)**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## How it works
+
+- Browse, import, and preview with no account.
+- Export, convert, file repair, and downloading a file from a link need a sign-in and an active paid plan.
+- One license works on up to 2 devices, Windows and Mac in any mix.
+
+## Systems
+
+- Windows 10 (64-bit, version 1809 or later) or Windows 11
+- macOS 12 or newer, Apple Silicon only
